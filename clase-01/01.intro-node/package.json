@@ -1,0 +1,13 @@
+{
+  "name": "clase-01",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "LP",
+  "license": "ISC",
+  "type": "commonjs"
+}
