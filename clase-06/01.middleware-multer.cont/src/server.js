@@ -1,38 +1,35 @@
 const express = require('express')
 const multer = require('multer')
 const { v4: uuidv4 } = require('uuid');
+const cors = require('cors')
+const path = require('node:path');
+const storage = require('./config/multer');
 
 require('dotenv').config()
 
+// ! Variables y Constantes
 const app = express()
-const port = process.env.PORT
+const PORT = process.env.PORT
+const RUTA = __dirname
 
+// ! Configuraciones
 
-// ! Configuraciones 
-
-const storage = multer.diskStorage({
-  /* Carpeta donde va a guardarse los recursos */
-  destination: function (req, file, cb) {
-    cb(null, './uploads')
-  },
-    /* nombre del archivo */
-  filename: function (req, file, cb) {
-    console.log(file)
-    const array = file.originalname.split('.')
-    const extension = array.at(-1)
-    console.log(extension)
-    // const extension2 = array[array.length - 1]
-    //console.log(extension2)
-    //const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
-    const nombreArchivo = `${uuidv4()}.${extension}`
-    cb(null, nombreArchivo)
-  }
-})
+// Configuración de cors
+const corsOptions = {
+  origin: process.env.FRONTEND,
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
 
 // ! Middlewares
 const upload = multer({ storage: storage })
-app.use(express.static('./uploads'))
-
+const rutaAUploads = path.join(RUTA, '../uploads')
+//console.log(rutaAUploads)
+app.use(express.static(rutaAUploads))
+// app.use(express.static('./uploads'))
+// https://www.npmjs.com/package/cors
+// Adds headers: Access-Control-Allow-Origin: * // ! <<---- todos los origines seran admitidos.
+/* app.use(cors()) */
+app.use(cors(corsOptions))
 
 // ! Rutas
 app.get('/', (req, res) => {
@@ -40,12 +37,23 @@ app.get('/', (req, res) => {
 })
 
 app.post('/uploads', upload.single('archivo'), (req, res) => {
-  // console.log(req.file)
-  res.send('Todo Okey')
+  //console.log(req.file) // Archivo guardado en el back
+
+    // console.log(req.protocol) // protocolo -> http:// o https://
+    // console.log(req.get('host')) // dominio:puerto | subdomino.dominio
+    const protocolo = req.protocol
+    const host = req.get('host')
+    const urlArchivo = `${protocolo}://${host}/${req.file.filename}`
+    console.log(urlArchivo)
+    res.json(
+      { 
+        ok: true,
+        url: urlArchivo
+      }
+    )
 })
 
-
-// ! El arranque
-app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`)
+// ! El Arranque
+app.listen(PORT, () => {
+  console.log(`Servidor funcionando en http://localhost:${PORT}`)
 })
