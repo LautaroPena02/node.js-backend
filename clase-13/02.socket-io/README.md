@@ -111,3 +111,20 @@ export default [
 ```sh
 npm i bcrypt express-session connect-mongo mongoose cookie-parser passport passport-local
 ```
+
+# Web Sockets
+
+## Cliente
+
+<https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API>
+
+## Librería socket.io
+
+Socket.io es una librería que nos simplifica el uso de Web Socket. Tiene incorporado dentro tanto el emisor como el receptor de mensajes.
+
+<https://socket.io/>
+<https://www.npmjs.com/package/socket.io>
+
+```sh
+npm i socket.io
+```
