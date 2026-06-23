@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
 import passport from 'passport';
-import './utils/handle-passport.js';
+import './utils/handle-passport-jwt.js';
 
 // ! Variables de entorno
 const app = express();
@@ -39,14 +39,13 @@ app.use(
     resave: false,
     saveUninitialized: false,
     /* cookie: { secure: true } */
-    store: MongoStore.create ({ mongoUrl: STRING_CONEXION }),
+    store: MongoStore.create({ mongoUrl: STRING_CONEXION }),
   })
 );
 
 // !Middleware de passwport
 app.use(passport.initialize());
 app.use(passport.session());
-
 
 // ! Rutas //
 app.use('/', routerAuth);
