@@ -29,6 +29,7 @@ app.set('layout', 'layout'); // Le indico donde van a estar los layouts
 app.use(express.static(path.join(__dirname, 'public'))); // Ruta a donde va a ir a buscar las plantillas
 
 app.use(express.json()); // Me decodifica el body cuando llega a través de un json
+app.use(express.urlencoded({ extended: true })); // Me decodifica el body cuando llega a través de un formulario
 // ! Middleware de Cookies
 app.use(cookieParser()); // Decodificar las cookies que nos lleguen desde el cliente
 // ! Middleware de Session
@@ -66,8 +67,18 @@ app.get('/', async (req, res) => {
   res.render('layout', { titulo: 'Inicio', body });
 });
 
+app.get('/nosotros', async (req, res) => {
+  const body = await obtenerPagina('nosotros');
+  res.render('layout', { titulo: 'Contacto', body });
+});
+
 app.get('/contacto', async (req, res) => {
   const body = await obtenerPagina('contacto');
+  res.render('layout', { titulo: 'Contacto', body });
+});
+
+app.get('/dashboard', async (req, res) => {
+  const body = await obtenerPagina('productos.pv');
   res.render('layout', { titulo: 'Contacto', body });
 });
 
