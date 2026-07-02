@@ -1,0 +1,77 @@
+{"level":30,"time":1782946248117,"pid":21164,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":1782946248156,"pid":21164,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":1782946249095,"pid":4860,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":1782946249132,"pid":4860,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T22:53:58.098Z","pid":14296,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T22:53:58.132Z","pid":14296,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:02:10.495Z","pid":18664,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:02:10.529Z","pid":18664,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:02:18.790Z","pid":11640,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:02:18.825Z","pid":11640,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:02:22.799Z","pid":7268,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:02:22.832Z","pid":7268,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:02:46.616Z","pid":3668,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:02:46.658Z","pid":3668,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:07.721Z","pid":2624,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:07.768Z","pid":2624,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:15.420Z","pid":9068,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:15.455Z","pid":9068,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:22.773Z","pid":10528,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:22.810Z","pid":10528,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:40.309Z","pid":15888,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:40.338Z","pid":15888,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:51.125Z","pid":15780,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:51.154Z","pid":15780,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:55.074Z","pid":20696,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:55.107Z","pid":20696,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:03:59.114Z","pid":17808,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:03:59.144Z","pid":17808,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:04:08.184Z","pid":10492,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:04:08.228Z","pid":10492,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:04:14.551Z","pid":22160,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:04:14.583Z","pid":22160,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:04:16.108Z","pid":5016,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:04:16.142Z","pid":5016,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:04:38.300Z","pid":9440,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:04:38.339Z","pid":9440,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:04:55.220Z","pid":21888,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:04:55.253Z","pid":21888,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:05:05.571Z","pid":9300,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:05:05.606Z","pid":9300,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:05:11.925Z","pid":2956,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:05:11.955Z","pid":2956,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:05:15.268Z","pid":21740,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:05:15.298Z","pid":21740,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:05:22.828Z","pid":16544,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:05:22.869Z","pid":16544,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:06:12.324Z","pid":2464,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:06:12.357Z","pid":2464,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:06:15.378Z","pid":3164,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:06:15.413Z","pid":3164,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:07:09.160Z","pid":15780,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:07:09.195Z","pid":15780,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:07:11.746Z","pid":1516,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-01T23:07:11.791Z","pid":1516,"hostname":"LautaroPC","msg":"Conexión a DB establecidad correctamente"}
+{"level":30,"time":"2026-07-01T23:07:14.022Z","pid":1516,"hostname":"LautaroPC","msg":"Listado de productos privados renderizado correctamente"}
+{"level":30,"time":"2026-07-01T23:07:26.487Z","pid":1516,"hostname":"LautaroPC","msg":"Producto borrado correctamente"}
+{"level":30,"time":"2026-07-01T23:07:28.520Z","pid":1516,"hostname":"LautaroPC","msg":"Listado de productos privados renderizado correctamente"}
+{"level":30,"time":"2026-07-01T23:07:51.667Z","pid":1516,"hostname":"LautaroPC","msg":"Formulario de creación de producto mostrado correctamente"}
+{"level":30,"time":"2026-07-01T23:08:04.333Z","pid":1516,"hostname":"LautaroPC","msg":"Producto creado correctamente"}
+{"level":30,"time":"2026-07-01T23:08:04.340Z","pid":1516,"hostname":"LautaroPC","msg":"Listado de productos privados renderizado correctamente"}
+{"level":30,"time":"2026-07-02T00:48:05.929Z","pid":10600,"hostname":"LautaroPC","msg":"Servidor funcionando en http://localhost:8080"}
+{"level":30,"time":"2026-07-02T00:48:05.963Z","pid":10600,"hostname":"LautaroPC","msg":"Conexion a DB establecida correctamente"}
+{"level":30,"time":"2026-07-02T00:48:22.087Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado público"}
+{"level":30,"time":"2026-07-02T00:48:34.540Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado privado"}
+{"level":30,"time":"2026-07-02T00:48:41.332Z","pid":10600,"hostname":"LautaroPC","msg":"Se encontró el producto"}
+{"level":50,"time":"2026-07-02T00:48:47.593Z","pid":10600,"hostname":"LautaroPC","err":{"type":"CastError","message":"Cast to ObjectId failed for value \"P001\" (type string) at path \"_id\" for model \"productos\"","stack":"CastError: Cast to ObjectId failed for value \"P001\" (type string) at path \"_id\" for model \"productos\"\n    at SchemaObjectId.cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schema\\objectId.js:252:11)\n    at SchemaType.applySetters (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schemaType.js:1373:12)\n    at SchemaType.castForQuery (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schemaType.js:1793:17)\n    at cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\cast.js:386:32)\n    at Query.cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:5228:12)\n    at Query._castConditions (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:2411:10)\n    at model.Query._findOne (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:2758:8)\n    at maybeTracedQueryExec (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:4801:83)\n    at async Object.getProductoById (file:///F:/Nodejs-EduIT/node.js-backend/clase-16/01.integrador/models/productos.model.js:41:22)\n    at async showEditFormu (file:///F:/Nodejs-EduIT/node.js-backend/clase-16/01.integrador/controllers/productos.controller.js:73:22)","stringValue":"\"P001\"","kind":"ObjectId","value":"P001","path":"_id","reason":{"type":"BSONError","message":"input must be a 24 character hex string, 12 byte Uint8Array, or an integer","stack":"BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer\n    at new ObjectId (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\bson\\lib\\bson.cjs:2636:23)\n    at castObjectId (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\cast\\objectid.js:25:12)\n    at SchemaObjectId.cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:12)\n    at SchemaType.applySetters (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schemaType.js:1373:12)\n    at SchemaType.castForQuery (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\schemaType.js:1793:17)\n    at cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\cast.js:386:32)\n    at Query.cast (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:5228:12)\n    at Query._castConditions (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:2411:10)\n    at model.Query._findOne (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:2758:8)\n    at maybeTracedQueryExec (F:\\Nodejs-EduIT\\node.js-backend\\clase-16\\01.integrador\\node_modules\\mongoose\\lib\\query.js:4801:83)"},"valueType":"string"},"msg":"Cast to ObjectId failed for value \"P001\" (type string) at path \"_id\" for model \"productos\""}
+{"level":30,"time":"2026-07-02T00:48:52.125Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado privado"}
+{"level":30,"time":"2026-07-02T00:48:53.966Z","pid":10600,"hostname":"LautaroPC","msg":"Se encontró el producto"}
+{"level":30,"time":"2026-07-02T00:48:53.968Z","pid":10600,"hostname":"LautaroPC","msg":"Se pudo mostrar el formulario de edición de producto"}
+{"level":30,"time":"2026-07-02T00:49:05.681Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado privado"}
+{"level":30,"time":"2026-07-02T00:49:08.001Z","pid":10600,"hostname":"LautaroPC","msg":"Se encontró el producto"}
+{"level":30,"time":"2026-07-02T00:49:08.003Z","pid":10600,"hostname":"LautaroPC","msg":"Se pudo mostrar el formulario de edición de producto"}
+{"level":30,"time":"2026-07-02T00:49:44.847Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado privado"}
+{"level":30,"time":"2026-07-02T00:49:49.227Z","pid":10600,"hostname":"LautaroPC","msg":"Se encontró el producto"}
+{"level":30,"time":"2026-07-02T00:49:52.741Z","pid":10600,"hostname":"LautaroPC","msg":"Se obtuvieron los productos para el listado privado"}
+{"level":30,"time":"2026-07-02T00:49:53.772Z","pid":10600,"hostname":"LautaroPC","msg":"Se encontró el producto"}
+{"level":30,"time":"2026-07-02T00:49:53.773Z","pid":10600,"hostname":"LautaroPC","msg":"Se pudo mostrar el formulario de edición de producto"}

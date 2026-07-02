@@ -1,0 +1,104 @@
+<main class="max-w-4xl mx-auto px-6 py-10">
+  <!-- Encabezado -->
+  <div class="mb-8 flex justify-between items-center">
+    <div>
+      <h1 class="text-3xl font-bold text-blue-600">
+        Detalle del Producto: <%= producto.nombre %>
+      </h1>
+      <p class="text-gray-500 mt-2">
+        Información completa del producto registrado.
+      </p>
+    </div>
+
+    <span
+      class="px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-semibold"
+    >
+      Activo
+    </span>
+  </div>
+
+  <!-- Tarjeta -->
+  <div class="bg-white rounded-xl shadow-lg p-8">
+    <!-- Datos -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Código -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">Código</p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">P001</div>
+      </div>
+
+      <!-- Nombre -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">
+          Nombre del Producto
+        </p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">
+          <%= producto.nombre %>
+        </div>
+      </div>
+
+      <!-- Categoría -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">Categoría</p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">
+          <%= producto.categoria %>
+        </div>
+      </div>
+
+      <!-- Precio -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">Precio</p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">
+          $<%= producto.precio %>
+        </div>
+      </div>
+
+      <!-- Stock -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">Stock</p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">
+          <%= producto.stock %> unidades
+        </div>
+      </div>
+
+      <!-- Fecha -->
+      <div>
+        <p class="text-sm font-medium text-gray-500 mb-2">Fecha de Registro</p>
+
+        <div class="border rounded-lg px-4 py-3 bg-gray-50">10/02/2026</div>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div
+      class="flex justify-between items-center mt-10 pt-6 border-t border-gray-200"
+    >
+      <a
+        href="/dashboard"
+        class="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
+      >
+        Volver
+      </a>
+
+      <div class="flex gap-4">
+        <a
+          href="/edit-formu/P001"
+          class="px-6 py-3 rounded-lg bg-yellow-500 text-white hover:bg-yellow-600 transition"
+        >
+          Editar
+        </a>
+
+        <button
+          class="px-6 py-3 rounded-lg bg-red-600 text-white hover:bg-red-700 transition"
+        >
+          Eliminar
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
